@@ -1,16 +1,20 @@
 
+<img src="https://img.shields.io/github/license/Ricnaga/react-component?color=green&style=for-the-badge"/>
+
+#
+
+<img src="cover.jpg" alt="Capa"/>
+
 # <div align="center"> Desafio React Components </div>
 
 #### <div align="right">- Projeto Finalizado <div>
 
 ### <div align="center"> Desafio de curso criado pela equipe Rocketseat abordando conceitos sobre: </div>
 
-#### 1. ReactJS
-#### 2. chamadas a API
-#### 3. Utilização de props
-#### 4. Utilização de children
-#### 5. Utilização de components
-#### 6. Utilização de hooks(usestate e useeffect)
+- HTML | CSS
+- ReactJS: components
+- ReactJS: hooks
+- Json-server: fake API
 
 ## <div align="center"> Sumário </div>
 <!--ts-->
@@ -23,10 +27,10 @@ Para executar a aplicação é necessário instalar algumas ferramentas tais com
 
 ```bash
 # Baixe o repositório.
-$ git clone https://github.com/Ricnaga/desafioReactComponent.git
+$ git clone https://github.com/Ricnaga/react-component.git
 
 # Acesse a pasta do projeto.
-$ cd desafioReactComponent
+$ cd react-component
 
 # Agora que baixou e acessou o repositório, vamos começar a instalação das dependências.
 $ yarn ( caso não utilize o yarn execute apenas npm -i)
@@ -35,13 +39,13 @@ $ yarn ( caso não utilize o yarn execute apenas npm -i)
 $ code .
 
 # Agore execute a aplicação.
-$ yarn start (caso não utilize o yarn: npm run start)
+$ yarn dev (caso não utilize o yarn: npm run dev)
 
 # Necessário também executar a api para que oconteúdo possa ser apresentado.
 $ yarn server (caso não utilize o yarn: npm run server)
 
-# A aplicação iniciará na porta 3000 
-# No navegador digite: http://localhost:3000
+# A aplicação iniciará na porta 8080 
+# No navegador digite: http://localhost:8080
 ```
 
 ##  <div align="center">Tecnologias utilizadas</div>
@@ -59,6 +63,3 @@ Gostou? tem alguma sugestão de melhoria? por favor, entre em contato e ja aprov
 <a href="https://www.linkedin.com/in/ricardo-nagatomy-56553254"><img src="https://img.shields.io/badge/-RicardoNaga-blue?style=flat-square&logo=Linkedin&logoColor=white"></a>
 <a href="https://app.rocketseat.com.br/me/ricardo-nagatomy-08130"><img src="https://img.shields.io/badge/-Rocketseat-000?style=flat-square&logo=&logoColor=white"></a>
 </div>
-
-#
-<div align="center"> <img src="https://img.shields.io/github/license/Ricnaga/desafioReactComponent?color=green&style=for-the-badge"/> </div>

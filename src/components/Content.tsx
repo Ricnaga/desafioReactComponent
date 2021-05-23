@@ -30,7 +30,13 @@ export function Content({ movies, selectedGenre }: MovieProps) {
       <main>
         <div className="movies-list">
           {movies.map(movie => (
-            <MovieCard title={movie.Title} poster={movie.Poster} runtime={movie.Runtime} rating={movie.Ratings[0].Value} />
+            <MovieCard
+              key={movie.Title}
+              title={movie.Title}
+              poster={movie.Poster}
+              runtime={movie.Runtime}
+              rating={movie.Ratings[0].Value}
+            />
           ))}
         </div>
       </main>
