@@ -1,5 +1,6 @@
 import { Button } from './Button';
 import '../styles/sidebar.scss';
+import { memo } from 'react';
 
 interface GenreContentProps {
   id: number;
@@ -13,7 +14,7 @@ interface GenreProps {
   handleClickButton: (id: number) => void;
 }
 
-export function SideBar({ genres, selectedGenreId, handleClickButton }: GenreProps) {
+function SideBarComponent({ genres, selectedGenreId, handleClickButton }: GenreProps) {
   // Complete aqui  
 
   return (
@@ -36,3 +37,8 @@ export function SideBar({ genres, selectedGenreId, handleClickButton }: GenrePro
 
   )
 }
+
+export const SideBar = memo(SideBarComponent, (prevProps, nextProps) => {
+    return Object.is(prevProps.genres, nextProps.genres)
+})
+  
